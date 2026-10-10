@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plant Leaf Disease Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <div class="page-shell">
+        <header class="hero-panel">
+            <span class="eyebrow">Plant Health AI</span>
+            <h1>Plant Leaf Disease Detection</h1>
+            <p>Upload a leaf image and get a model prediction with confidence instantly.</p>
+        </header>
+
+        <main class="main-grid">
+            <section class="card upload-card">
+                <h2>Upload your leaf image</h2>
+                {% if error %}
+                <div class="alert error-alert">{{ error }}</div>
+                {% endif %}
+                <form action="{{ url_for('predict') }}" method="post" enctype="multipart/form-data">
+                    <label class="file-label" for="leaf_image">Choose PNG or JPG image</label>
+                    <input class="file-input" type="file" name="leaf_image" id="leaf_image" accept="image/png, image/jpeg" />
+                    <button class="primary-btn" type="submit">Analyze Leaf</button>
+                </form>
+            </section>
+
+            <section class="card info-card">
+                <h2>Why use this tool?</h2>
+                <p>Our trained model detects plant leaf disease and displays the prediction clearly with confidence.</p>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <strong>Fast</strong>
+                        <p>Results in seconds.</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>Accurate</strong>
+                        <p>Model trained on plant disease data.</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>Easy</strong>
+                        <p>Upload one image and view the outcome.</p>
+                    </div>
+                </div>
+            </section>
+
+            {% if result %}
+            <section class="card result-card">
+                <div class="result-header">
+                    <h2>Result</h2>
+                    <span class="result-pill">{{ result.confidence }}%</span>
+                </div>
+                <div class="result-content">
+                    <div class="result-detail">
+                        <span class="result-label">Prediction</span>
+                        <h3>{{ result.class_name }}</h3>
+                    </div>
+                    <div class="result-detail">
+                        <span class="result-label">Confidence</span>
+                        <h3>{{ result.confidence }}%</h3>
+                    </div>
+                </div>
+                {% if result.image_url %}
+                <div class="preview-card">
+                    <img src="{{ result.image_url }}" alt="Uploaded leaf image" />
+                </div>
+                {% endif %}
+            </section>
+            {% endif %}
+        </main>
+    </div>
+</body>
+</html>

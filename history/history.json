@@ -1,0 +1,164 @@
+[
+  {
+    "timestamp": "2026-05-06T20:36:47.750335",
+    "filename": "20260506_203647_0b092cda-db8c-489d-8c46-23ac3835310d___RS_LB 4480.png",
+    "class_name": "Tomato Late Blight",
+    "confidence": 65.45,
+    "severity": "Low severity",
+    "image_path": "history\\images\\20260506_203647_0b092cda-db8c-489d-8c46-23ac3835310d___RS_LB 4480.png"
+  },
+  {
+    "timestamp": "2026-05-06T20:37:01.239499",
+    "filename": "20260506_203701_000bf685-b305-408b-91f4-37030f8e62db___GH_HL Leaf 308.1.png",
+    "class_name": "Tomato Healthy",
+    "confidence": 99.99,
+    "severity": "High severity",
+    "image_path": "history\\images\\20260506_203701_000bf685-b305-408b-91f4-37030f8e62db___GH_HL Leaf 308.1.png"
+  },
+  {
+    "timestamp": "2026-05-06T20:37:39.516653",
+    "filename": "20260506_203739_00ce4c63-9913-4b16-898c-29f99acf0dc3___RS_Late.B 4982.png",
+    "class_name": "Tomato Late Blight",
+    "confidence": 65.38,
+    "severity": "Low severity",
+    "image_path": "history\\images\\20260506_203739_00ce4c63-9913-4b16-898c-29f99acf0dc3___RS_Late.B 4982.png"
+  },
+  {
+    "timestamp": "2026-05-06T20:38:15.876124",
+    "filename": "20260506_203815_0a4b3cde-c83a-4c83-b037-010369738152___RS_Late.B 6985.png",
+    "class_name": "Tomato Late Blight",
+    "confidence": 95.96,
+    "severity": "High severity",
+    "image_path": "history\\images\\20260506_203815_0a4b3cde-c83a-4c83-b037-010369738152___RS_Late.B 6985.png"
+  },
+  {
+    "timestamp": "2026-05-06T20:38:34.823124",
+    "filename": "20260506_203834_0ab172fa-ac7b-4a3e-90c8-0708703eb3bb___RS_Late.B 5572.png",
+    "class_name": "Tomato Early Blight",
+    "confidence": 66.75,
+    "severity": "Low severity",
+    "image_path": "history\\images\\20260506_203834_0ab172fa-ac7b-4a3e-90c8-0708703eb3bb___RS_Late.B 5572.png"
+  },
+  {
+    "timestamp": "2026-05-06T20:38:58.813726",
+    "filename": "20260506_203858_0c47de5b-adbe-479f-8ccf-5b8c530c32f8___RS_Late.B 6312.png",
+    "class_name": "Tomato Early Blight",
+    "confidence": 69.78,
+    "severity": "Low severity",
+    "image_path": "history\\images\\20260506_203858_0c47de5b-adbe-479f-8ccf-5b8c530c32f8___RS_Late.B 6312.png"
+  },
+  {
+    "timestamp": "2026-05-06T20:39:30.016568",
+    "filename": "20260506_203929_0a4b3cde-c83a-4c83-b037-010369738152___RS_Late.B 6985.png",
+    "class_name": "Tomato Late Blight",
+    "confidence": 95.96,
+    "severity": "High severity",
+    "image_path": "history\\images\\20260506_203929_0a4b3cde-c83a-4c83-b037-010369738152___RS_Late.B 6985.png"
+  },
+  {
+    "timestamp": "2026-05-06T20:40:14.822603",
+    "filename": "20260506_204014_0a79700b-f834-41f5-ae51-6ceda6f67a48___RS_Early.B 8951.png",
+    "class_name": "Tomato Early Blight",
+    "confidence": 99.89,
+    "severity": "High severity",
+    "image_path": "history\\images\\20260506_204014_0a79700b-f834-41f5-ae51-6ceda6f67a48___RS_Early.B 8951.png"
+  },
+  {
+    "timestamp": "2026-05-06T20:40:33.595932",
+    "filename": "20260506_204033_0ad3ba53-f01b-403b-a99d-5991eed85045___RS_Early.B 7600.png",
+    "class_name": "Tomato Early Blight",
+    "confidence": 98.12,
+    "severity": "High severity",
+    "image_path": "history\\images\\20260506_204033_0ad3ba53-f01b-403b-a99d-5991eed85045___RS_Early.B 7600.png"
+  },
+  {
+    "timestamp": "2026-05-06T20:41:17.866808",
+    "filename": "20260506_204117_000bf685-b305-408b-91f4-37030f8e62db___GH_HL Leaf 308.1.png",
+    "class_name": "Tomato Healthy",
+    "confidence": 99.99,
+    "severity": "High severity",
+    "image_path": "history\\images\\20260506_204117_000bf685-b305-408b-91f4-37030f8e62db___GH_HL Leaf 308.1.png"
+  },
+  {
+    "timestamp": "2026-05-06T20:41:27.800692",
+    "filename": "20260506_204127_1ae826e2-5148-47bd-a44c-711ec9cc9c75___RS_HL 1954.png",
+    "class_name": "Tomato Healthy",
+    "confidence": 40.23,
+    "severity": "Low severity",
+    "image_path": "history\\images\\20260506_204127_1ae826e2-5148-47bd-a44c-711ec9cc9c75___RS_HL 1954.png"
+  },
+  {
+    "timestamp": "2026-05-06T20:47:01.184801",
+    "filename": "20260506_204701_1a1184f8-c414-4ead-a4c4-41ae78e29a82___RS_HL 1971.png",
+    "class_name": "Tomato Healthy",
+    "confidence": 98.2,
+    "severity": "High severity",
+    "image_path": "history\\images\\20260506_204701_1a1184f8-c414-4ead-a4c4-41ae78e29a82___RS_HL 1971.png"
+  },
+  {
+    "timestamp": "2026-05-06T20:48:22.643502",
+    "filename": "20260506_204822_0c2628d4-8d64-48a9-a157-19a9c902e304___RS_LB 4590.png",
+    "class_name": "Tomato Early Blight",
+    "confidence": 89.48,
+    "severity": "Medium severity",
+    "image_path": "history\\images\\20260506_204822_0c2628d4-8d64-48a9-a157-19a9c902e304___RS_LB 4590.png"
+  },
+  {
+    "timestamp": "2026-05-06T20:49:19.775498",
+    "filename": "20260506_204919_0a6983a5-895e-4e68-9edb-88adf79211e9___RS_Early.B 9072.png",
+    "class_name": "Tomato Healthy",
+    "confidence": 88.15,
+    "severity": "Medium severity",
+    "image_path": "history\\images\\20260506_204919_0a6983a5-895e-4e68-9edb-88adf79211e9___RS_Early.B 9072.png"
+  },
+  {
+    "timestamp": "2026-05-06T21:01:53.854007",
+    "filename": "20260506_210153_0a79700b-f834-41f5-ae51-6ceda6f67a48___RS_Early.B 8951.png",
+    "class_name": "Tomato Early Blight",
+    "confidence": 99.89,
+    "severity": "High severity",
+    "image_path": "history\\images\\20260506_210153_0a79700b-f834-41f5-ae51-6ceda6f67a48___RS_Early.B 8951.png"
+  },
+  {
+    "timestamp": "2026-05-06T21:02:14.516364",
+    "filename": "20260506_210214_0b3e5032-8ae8-49ac-8157-a1cac3df01dd___RS_HL 1817.png",
+    "class_name": "Tomato Late Blight",
+    "confidence": 69.79,
+    "severity": "Low severity",
+    "image_path": "history\\images\\20260506_210214_0b3e5032-8ae8-49ac-8157-a1cac3df01dd___RS_HL 1817.png"
+  },
+  {
+    "timestamp": "2026-05-06T21:08:01.990431",
+    "filename": "20260506_210801_1ae826e2-5148-47bd-a44c-711ec9cc9c75___RS_HL 1954.png",
+    "class_name": "Tomato Healthy",
+    "confidence": 40.23,
+    "severity": "Low severity",
+    "image_path": "history\\images\\20260506_210801_1ae826e2-5148-47bd-a44c-711ec9cc9c75___RS_HL 1954.png"
+  },
+  {
+    "timestamp": "2026-05-06T21:08:17.103633",
+    "filename": "20260506_210817_0c2628d4-8d64-48a9-a157-19a9c902e304___RS_LB 4590.png",
+    "class_name": "Tomato Early Blight",
+    "confidence": 98.78,
+    "severity": "High severity",
+    "image_path": "history\\images\\20260506_210817_0c2628d4-8d64-48a9-a157-19a9c902e304___RS_LB 4590.png"
+  },
+  {
+    "timestamp": "2026-05-16T10:34:49.647671",
+    "filename": "20260516_103448_0a4b3cde-c83a-4c83-b037-010369738152___RS_Late.B 6985.png",
+    "class_name": "Tomato Late Blight",
+    "confidence": 53.99,
+    "severity": "High severity",
+    "location": "auto",
+    "image_path": "history\\images\\20260516_103448_0a4b3cde-c83a-4c83-b037-010369738152___RS_Late.B 6985.png"
+  },
+  {
+    "timestamp": "2026-05-16T10:34:57.038391",
+    "filename": "20260516_103456_0a4b3cde-c83a-4c83-b037-010369738152___RS_Late.B 6985.png",
+    "class_name": "Tomato Late Blight",
+    "confidence": 53.99,
+    "severity": "High severity",
+    "location": "auto",
+    "image_path": "history\\images\\20260516_103456_0a4b3cde-c83a-4c83-b037-010369738152___RS_Late.B 6985.png"
+  }
+]

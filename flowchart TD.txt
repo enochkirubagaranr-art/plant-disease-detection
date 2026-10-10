@@ -1,0 +1,35 @@
+flowchart TD
+    A[User Browser / Streamlit UI]
+    A --> B[Image Upload]
+    B --> C[Image Preprocessing]
+    C --> D[TensorFlow Model<br/>(`FINAL_MODEL.h5`)]
+    D --> E[Prediction + Confidence]
+    E --> F[Results Display]
+    F --> F1[Detected Disease]
+    F --> F2[Confidence Meter]
+    F --> F3[Severity Message]
+    F --> F4[Translated UI Text]
+    F --> F5[Voice Output Option]
+
+    E --> G[Disease Knowledge Lookup]
+    G --> G1[Symptoms]
+    G --> G2[Cause]
+    G --> G3[Treatment Advice]
+
+    F5 --> H[Text-to-Speech<br/>(`gTTS`)]
+    A --> I[Language Selector]
+    I --> F4
+    E --> J[Ambiguity / Low Confidence Warning]
+
+    subgraph Storage
+        K[Local Files]
+        K --> K1[`class_names.json`]
+        K --> K2[`output.mp3`]
+        K --> K3[`new_data/`]
+        K --> K4[`history/history.json`]
+    end
+
+    C -.-> K1
+    H -.-> K2
+    B -.-> K3
+    E -.-> K4
